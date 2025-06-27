@@ -1,3 +1,14 @@
+### Inverter setups
+
+## inverter_tb_tran_xschem.sch
+**References:**
+1) https://www.youtube.com/watch?v=qbf9CbWoX4w
+
+## inverter_tb_tran_gaw.sch
+**References:**
+1) https://www.youtube.com/watch?v=tfPqrM7VaEs
+2) https://www.youtube.com/watch?v=bm3l21ExLOY&t=40s
+
 ## Hotkeys
 
 Follows some of the most used Xschem key bindings used. More key bindings can be found in the next link:
