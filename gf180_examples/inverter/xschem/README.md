@@ -1,4 +1,24 @@
 ### Inverter setups
+Below, are some of the different configurations and setups for waveform visualization in Xschem.
+
+## inverter_tb_tran_none.sch
+This testbench runs a DC simulation for the inverter.The configuration used is the **Ngspice interactive** mode, as indicated in the image below.
+
+<p align="center">
+   <img src="./img/ngspice_interactive.png" width="600" />
+</p>  
+
+Once, set the correct configuration, ngspice terminal opens, allowing the possibility to plot the output with the following instruction: **plot Vout**.
+
+<p align="center">
+   <img src="./img/ngspice_terminal.png" width="600" />
+</p>  
+
+Finally, the image below presents the DC simulation results for Vout vs Vin.
+
+<p align="center">
+   <img src="./img/DC_sim.png" width="600" />
+</p> 
 
 ## inverter_tb_tran_xschem.sch
 **References:**
