@@ -1,34 +1,34 @@
 ### Inverter setups
-Below, are some of the different configurations and setups for waveform visualization in Xschem.
+The different configurations and setups for waveform visualisation in Xschem are shown below.
 
 ## inverter_tb_tran_none.sch
-This testbench runs a DC simulation for the inverter.The configuration used is the **Ngspice interactive** mode, as indicated in the image below.
+This testbench runs a DC simulation for the inverter. The **Ngspice interactive** mode is used for the configuration, as shown in the image below.
 
 <p align="center">
    <img src="./img/ngspice_interactive.png" width="600" />
 </p>  
 
-Once, set the correct configuration, ngspice terminal opens, allowing the possibility to plot the output with the following instruction: **plot Vout**.
+Once the correct configuration has been set, the ngspice terminal opens, allowing you to plot the output using the following instruction: **plot Vout**.
 
 <p align="center">
    <img src="./img/ngspice_terminal.png" width="600" />
 </p>  
 
-Finally, the image below presents the DC simulation results for Vout vs Vin.
+Finally, the image below shows the results of the DC simulation for Vout versus Vin.
 
 <p align="center">
    <img src="./img/DC_sim.png" width="600" />
 </p> 
 
 ## inverter_tb_tran_xschem.sch
-This testbench runs a transient simulation for the same inverter.The configuration used is the same as below, **Ngspice interactive** mode.
-To plot Vout and Vin in the same plot using the ngspice terminal, use the following command: **plot Vout Vin**. 
+This testbench runs a transient simulation for the same inverter, using the same configuration as below in **Ngspice interactive** mode.
+To plot Vout and Vin together using the Ngspice terminal, enter the following command: **plot Vout Vin**.
 
 <p align="center">
    <img src="./img/tran_sim.png" width="600" />
 </p> 
  
- One nice trick to achieve a better visualization of the waveforms is to include an offset to each one of the plotted waveforms, as indicates the following command: **plot Vout+4 Vin**.
+One useful trick for achieving a better visualisation of the waveforms is to include an offset in one of the plotted waveforms. The following command illustrates this: **plot Vout+4 Vin**.
 
 <p align="center">
    <img src="./img/tran_sim_offset.png" width="600" />
@@ -43,13 +43,13 @@ To plot Vout and Vin in the same plot using the ngspice terminal, use the follow
 2) https://www.youtube.com/watch?v=bm3l21ExLOY&t=40s
 
 ## Hotkeys
-In the Xschem GUI, select the **Help** option, where it is possible to get access to the *Keys* and *Show Keybindings* options to identify a list of the available key bindings with their description and a nice bindings cheatsheet (see the image below), respectively. 
+In the Xschem GUI, select the **Help** option to access the *Keys* and *Show Keybindings* options. These allow you to view a list of the available key bindings and their descriptions, as well as a handy keybinding cheat sheet (see the image below).
 
 <p align="center">
    <img src="./img/cheatsheet.png" width="600" />
 </p> 
 
-Follows some of the most used Xschem key bindings used. More key bindings can be found in the next link:
+Below are some of the most commonly used XSchem key bindings. More key bindings can be found via the following link or in the *Keys* menu option:
 http://repo.hu/projects/xschem/xschem_man/commands.html
 
 |Key1  | Key2 | Description Header |
