@@ -53,7 +53,23 @@ This test bench runs transient simulations of the same inverter and uses the XSc
    <img src="./img/xschem_visualizer.png" width="600" />
 </p> 
 
-Once you have correctly set up correctly the testbench, click on To include the two modules, 
+Once you have set up the testbench correctly, click on the **Simulation** menu, then click on **Graphs** and select *Add waveform* and *Add waveform reload launcher* to include the two modules, as illustrated below.
+
+<p align="center">
+   <img src="./img/xschem_modules.png" width="600" />
+</p> 
+
+Select the waveform, then press *Q* and modify the waveform configuration to include **Vout** and **Vin** in the graph.
+
+<p align="center">
+   <img src="./img/xschem_waveform.png" width="600" />
+</p> 
+
+Finaly, change the simulator mode to: **Ngspice batch**  
+
+<p align="center">
+   <img src="./img/ngspice_batch.png" width="600" />
+</p> 
 
 **Reference:**
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
