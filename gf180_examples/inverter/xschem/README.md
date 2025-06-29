@@ -71,6 +71,18 @@ Finaly, change the simulator mode to: **ngspice batch**
    <img src="./img/ngspice_batch2.png" width="600" />
 </p> 
 
+Click on the *Netlist* and *Simulation* buttons. A new window will appear, as shown below.
+
+ <p align="center">
+   <img src="./img/view_data.png" width="600" />
+</p> 
+
+Close the new window, click on the launcher and press the *Ctrl+left-click* combination as indicated in the symbol description to load the waves. Both **Vout** and **Vin** waveforms should then appear, as shown below.
+
+ <p align="center">
+   <img src="./img/launcher_waveform.png" width="600" />
+</p> 
+
 **Reference:**
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
 
