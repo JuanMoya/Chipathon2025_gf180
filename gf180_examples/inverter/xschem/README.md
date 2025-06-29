@@ -127,4 +127,4 @@ http://repo.hu/projects/xschem/xschem_man/commands.html
 | shift  | 'Z' | Zoom in |
 | ctrl | 'z' | Zoom out |
 
-
+## Pulling and pushing the design project to a Github repository
