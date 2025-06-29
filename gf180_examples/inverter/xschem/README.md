@@ -30,6 +30,11 @@ Finally, the image below presents the DC simulation results for Vout vs Vin.
 2) https://www.youtube.com/watch?v=bm3l21ExLOY&t=40s
 
 ## Hotkeys
+In the Xschem GUI, select the **Help** option, where it is possible to get access to the *Keys* and *Show Keybindings* options to identify a list of the available key bindings with their description and a nice bindings cheatsheet (see the image below), respectively. 
+
+<p align="center">
+   <img src="./img/cheatsheet.png" width="600" />
+</p> 
 
 Follows some of the most used Xschem key bindings used. More key bindings can be found in the next link:
 http://repo.hu/projects/xschem/xschem_man/commands.html
