@@ -65,10 +65,10 @@ Select the waveform, then press *Q* and modify the waveform configuration to inc
    <img src="./img/xschem_waveform.png" width="600" />
 </p> 
 
-Finaly, change the simulator mode to: **Ngspice batch**  
+Finaly, change the simulator mode to: **ngspice batch**  
 
 <p align="center">
-   <img src="./img/ngspice_batch.png" width="600" />
+   <img src="./img/ngspice_batch2.png" width="600" />
 </p> 
 
 **Reference:**
