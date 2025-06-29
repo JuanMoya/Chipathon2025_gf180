@@ -21,6 +21,19 @@ Finally, the image below presents the DC simulation results for Vout vs Vin.
 </p> 
 
 ## inverter_tb_tran_xschem.sch
+This testbench runs a transient simulation for the same inverter.The configuration used is the same as below, **Ngspice interactive** mode.
+To plot Vout and Vin in the same plot using the ngspice terminal, use the following command: **plot Vout Vin**. 
+
+<p align="center">
+   <img src="./img/tran_sim.png" width="600" />
+</p> 
+ 
+ One nice trick to achieve a better visualization of the waveforms is to include an offset to each one of the plotted waveforms, as indicates the following command: **plot Vout+4 Vin**.
+
+<p align="center">
+   <img src="./img/tran_sim_offset.png" width="600" />
+</p> 
+
 **References:**
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
 
