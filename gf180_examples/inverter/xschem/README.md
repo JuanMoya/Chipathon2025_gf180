@@ -1,6 +1,12 @@
 ### Inverter setups
 The different configurations and setups for waveform visualisation in Xschem are shown below.
 
+Begore running the simulation, let's set the simulation results directory in the same path of the inverter schematic. For this, click on the **Simulation** menu and then select the option *Use 'simulation' dir in schematic dir*, as indicated below.
+
+<p align="center">
+   <img src="./img/simulation_folder.png" width="600" />
+</p>  
+
 ## inverter_tb_tran_none.sch
 This testbench runs a DC simulation for the inverter. The **Ngspice interactive** mode is used for the configuration, as shown in the image below.
 
@@ -20,7 +26,7 @@ Finally, the image below shows the results of the DC simulation for Vout versus 
    <img src="./img/DC_sim.png" width="600" />
 </p> 
 
-## inverter_tb_tran_xschem.sch
+## inverter_tb_tran_none.sch
 This testbench runs a transient simulation for the same inverter, using the same configuration as below in **Ngspice interactive** mode.
 To plot Vout and Vin together using the Ngspice terminal, enter the following command: **plot Vout Vin**.
 
@@ -34,10 +40,18 @@ One useful trick for achieving a better visualisation of the waveforms is to inc
    <img src="./img/tran_sim_offset.png" width="600" />
 </p> 
 
-**References:**
+## inverter_tb_tran_xschem.sch
+This test bench runs transient simulations of the same inverter and uses the XSchem Visualizer, as shown in the figure below. It employs a distinct simulator mode and incorporates two modules, highlighted in red.
+
+<p align="center">
+   <img src="./img/xschem_visualizer.png" width="600" />
+</p> 
+
+**Reference:**
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
 
 ## inverter_tb_tran_gaw.sch
+
 **References:**
 1) https://www.youtube.com/watch?v=tfPqrM7VaEs
 2) https://www.youtube.com/watch?v=bm3l21ExLOY&t=40s
