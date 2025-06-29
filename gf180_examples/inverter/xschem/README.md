@@ -7,8 +7,14 @@ Begore running the simulation, let's set the simulation results directory in the
    <img src="./img/simulation_folder.png" width="600" />
 </p>  
 
+Once you have set this path correctly, save the file and click on the *Netlist* button to generate the netlist. Then click on *Simulation* to run the simulation testbench.
+
 ## inverter_tb_tran_none.sch
-This testbench runs a DC simulation for the inverter. The **Ngspice interactive** mode is used for the configuration, as shown in the image below.
+This testbench performs a DC simulation of the inverter. First, click on the **Simulation** button, then select the *Configure simulators and tools* option. Next, select **Ngspice Interactive** mode, as shown in the images below.
+
+<p align="center">
+   <img src="./img/simulator_config.png" width="600" />
+</p>  
 
 <p align="center">
    <img src="./img/ngspice_interactive.png" width="600" />
@@ -46,6 +52,8 @@ This test bench runs transient simulations of the same inverter and uses the XSc
 <p align="center">
    <img src="./img/xschem_visualizer.png" width="600" />
 </p> 
+
+Once you have correctly set up correctly the testbench, click on To include the two modules, 
 
 **Reference:**
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
