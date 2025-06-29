@@ -128,3 +128,26 @@ http://repo.hu/projects/xschem/xschem_man/commands.html
 | ctrl | 'z' | Zoom out |
 
 ## Pulling and pushing the design project to a Github repository
+
+The **IIC-OSIC-TOOLS** repo, create a mapped folder which is synced between host and the docker. By default its $HOME/eda/designs in Linux and C:\Users\<username>\eda\designs in Windows (which is this case). To pull your repository in your Windows machine, run the following commmand in Powershell: 
+
+  ```
+  git clone <your_repository>.git
+  ```
+
+Remember to generate an SSH key adding it to the ssh-agent, as indicated in the next link:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+In my case, I generate the **RSA** key, not the **Ed25519**.
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+
+The most used commands are:
+```
+git add .
+git commit -m "message describing the changes"
+git pull commit main
+git push commit main
+```
