@@ -1,7 +1,7 @@
-** sch_path: /foss/designs/gf180_examples/inverter/xschem/inverter_tb_none.sch
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter_tb_none.sch
 **.subckt inverter_tb_none
 x1 Vin VDD VSS Vout inverter
-C1 Vout VSS 100n m=1
+C1 Vout VSS 100f m=1
 V1 VSS GND 0
 V2 VDD VSS 3.3
 Vin Vin VSS 0
@@ -20,9 +20,9 @@ Vin Vin VSS 0
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  gf180_examples/inverter/xschem/inverter.sym # of pins=4
-** sym_path: /foss/designs/gf180_examples/inverter/xschem/inverter.sym
-** sch_path: /foss/designs/gf180_examples/inverter/xschem/inverter.sch
+* expanding   symbol:  Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym # of pins=4
+** sym_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sch
 .subckt inverter Vin VDD VSS Vout
 *.ipin Vin
 *.iopin VDD
