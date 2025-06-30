@@ -119,10 +119,16 @@ Once the schematic is ready, click on the **Symbol** button and select the *Make
    <img src="./img/RO_sym.png" width="600" />
 </p> 
 
-Then, create the testbench as shown below.
+Then, create the test bench as shown below. Include an initial condition for node *n1* to make the ring oscillator start oscillating in Xschem (check the code line).
 
  <p align="center">
    <img src="./img/RO_tb.png" width="600" />
+</p> 
+
+In the figure below, it is possible to check the code used to plot the 3 phases of the ring oscillator **plot n1 x1.n2 x1.n3**. Look that nodes n2 and n3 are internal nodes, thus, to plot them it is necessary to indicate that they are internal nodes inside the x1 symbol, which corresponds to the ring oscillator symbol. 
+
+ <p align="center">
+   <img src="./img/RO_simulation.png" width="600" />
 </p> 
 
 ## Hotkeys
