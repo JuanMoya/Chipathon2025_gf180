@@ -106,7 +106,7 @@ Drag and drop from the list the waveforms that you want to check with gaw.
 This is a hierarchical example that uses the inverter shown above. First, create a new schematic with three inverters cascaded, as shown below. Open the library symbol using the "Shift + I" key combination, navigate to the folder containing the inverter symbol, and place it in the schematic window.
 
  <p align="center">
-   <img src="./img/RO_sch.png" width="600" />
+   <img src="./img/RO_sch2.png" width="600" />
 </p> 
 
 Once the schematic is ready, click on the **Symbol** button and select the *Make symbol from schematic* option, as illustrated below.
