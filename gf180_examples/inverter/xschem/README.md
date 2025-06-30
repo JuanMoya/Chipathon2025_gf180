@@ -87,10 +87,20 @@ Close the new window, click on the launcher and press the *Ctrl+left-click* comb
 1) https://www.youtube.com/watch?v=qbf9CbWoX4w
 
 ## inverter_tb_tran_gaw.sch
+This testbench runs a transient simulation for the same inverter, using the **Ngspice interactive** mode. Click on the *Netlist* and *Simulation* buttons. Then, click on *Waves* and select *External Viewer*, as indicated below. A new window pops up.
+
+ <p align="center">
+   <img src="./img/external_viewer.png" width="600" />
+</p> 
+
+Drag and drop from the list the waveforms that you want to check with gaw.
 
 **References:**
 1) https://www.youtube.com/watch?v=tfPqrM7VaEs
 2) https://www.youtube.com/watch?v=bm3l21ExLOY&t=40s
+
+
+## inverter_tb_tran_colab.sch
 
 ## Hotkeys
 In the Xschem GUI, select the **Help** option to access the *Keys* and *Show Keybindings* options. These allow you to view a list of the available key bindings and their descriptions, as well as a handy keybinding cheat sheet (see the image below).
@@ -151,3 +161,5 @@ git commit -m "message describing the changes"
 git pull commit main
 git push commit main
 ```
+Here is a link where you can find more information about git.
+https://www.youtube.com/watch?v=mJ-qvsxPHpY
