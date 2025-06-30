@@ -9,7 +9,7 @@ Begore running the simulation, let's set the simulation results directory in the
 
 Once you have set this path correctly, save the file and click on the *Netlist* button to generate the netlist. Then click on *Simulation* to run the simulation testbench.
 
-## inverter_tb_tran_none.sch
+## inverter_tb_none.sch
 This testbench performs a DC simulation of the inverter. First, click on the **Simulation** button, then select the *Configure simulators and tools* option. Next, select **Ngspice Interactive** mode, as shown in the images below.
 
 <p align="center">
@@ -103,7 +103,7 @@ Drag and drop from the list the waveforms that you want to check with gaw.
 ## inverter_tb_tran_colab.sch
 
 ## 3_stage_RO.sch
-This is a hierarchical example that uses the inverter presented above. First, let's create a new schematic with 3 inverters cascaded, as presented below.
+This is a hierarchical example that uses the inverter shown above. First, create a new schematic with three inverters cascaded, as shown below. Open the library symbol using the "Shift + I" key combination, navigate to the folder containing the inverter symbol, and place it in the schematic window.
 
  <p align="center">
    <img src="./img/RO_sch.png" width="600" />
