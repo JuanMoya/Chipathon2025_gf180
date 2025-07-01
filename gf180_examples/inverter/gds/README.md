@@ -65,5 +65,5 @@ To change the properties of the cell to be instantiated, select the **PCell** op
 </p> 
 
 <p align="center">
-   <img src="./img/pcell_param2.png" width="600" />
+   <img src="./img/pcell_param3.png" width="600" />
 </p> 
