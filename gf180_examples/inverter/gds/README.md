@@ -91,3 +91,9 @@ The figure below shows some DRC results associated with the density of poly, met
 <p align="center">
    <img src="./img/drc_errors.png" width="600" />
 </p> 
+
+To run LVS flow, also check the example **Tutorial using KLayout with gf180mcu (part 4)** (link above), and set the setup, as defined below.
+
+<p align="center">
+   <img src="./img/LVS_config.png" width="600" />
+</p> 
