@@ -77,3 +77,17 @@ To move or rotate the devices instantiated, select (left click with the mouse) t
 <p align="center">
    <img src="./img/klayout_rotate.png" width="600" />
 </p> 
+
+Once you have finished instantiating and connecting the layout components, place the pin labels with the **Metal<n>_Label** layer as shown below and as indicated in the examples provided by the Chipathon 2025 repo (https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial)
+
+<p align="center">
+   <img src="./img/klayout_layout_inverter.png" width="600" />
+</p> 
+
+To run DRC flow, check the example **Tutorial using KLayout with gf180mcu (part 4)** in https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial
+
+The figure below shows some DRC results associated with the density of poly, metal 1, and metal 2. These errors can be ignored for now, as they will be resolved when the design expands by including more blocks.
+
+<p align="center">
+   <img src="./img/drc_errors.png" width="600" />
+</p> 
