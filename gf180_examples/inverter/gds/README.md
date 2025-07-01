@@ -1,1 +1,53 @@
+### Starting with Klayout 
 
+To open Klayout in editor mode, use the following command:
+```
+klayout -e
+```
+Click on **File** and then in **New Layout** to create a new layout, as indicated below.
+
+<p align="center">
+   <img src="./img/klayout_new_file.png" width="600" />
+</p> 
+
+In the *New Layout Properties* menu, set *Top cell* with the same name as the cell designed in Xschem and set *Database unit* to 0.001 um, as show below.
+
+<p align="center">
+   <img src="./img/klayout_setup.png" width="600" />
+</p> 
+
+Go to *Editor options* to set the grid, as illustrated below.
+
+<p align="center">
+   <img src="./img/klayout_setup2.png" width="600" />
+</p> 
+
+Then define the grid to 0.005 um, as indicated below.
+
+<p align="center">
+   <img src="./img/klayout_setup_grid.png" width="600" />
+</p> 
+
+Now, click on the **Edit** button and click on the *Editor Options* to set *Movements* option to move the cells in *Any Direction*, *Diagonal*, and *Manhattan* (which corresponds to X-Y 90° movement), as illustrated below.
+
+<p align="center">
+   <img src="./img/klayout_setup_grid.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/klayout_editor_option.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/klayout_movements.png" width="600" />
+</p> 
+
+To save the file, go to **File** and then click on *Save as*. Then, name the gds file with the same name as the Xschem file.
+
+<p align="center">
+   <img src="./img/klayout_save_as.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/klayout_save_gds.png" width="600" />
+</p> 
