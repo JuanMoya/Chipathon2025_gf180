@@ -20,13 +20,13 @@ N 800 -120 800 -80 {lab=n1}
 N 290 -20 290 20 {lab=VSS}
 N 530 -20 530 20 {lab=VSS}
 N 800 -20 800 20 {lab=VSS}
-C {Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 230 -40 0 0 {name=x1}
+C {/foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 230 -40 0 0 {name=x1}
 C {lab_wire.sym} 170 -260 0 0 {name=p7 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 170 -50 2 1 {name=p1 sig_type=std_logic lab=VSS}
-C {Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 460 -40 0 0 {name=x2}
+C {/foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 460 -40 0 0 {name=x2}
 C {lab_wire.sym} 400 -260 0 0 {name=p2 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 400 -50 2 1 {name=p3 sig_type=std_logic lab=VSS}
-C {Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 690 -40 0 0 {name=x3}
+C {/foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 690 -40 0 0 {name=x3}
 C {lab_wire.sym} 630 -260 0 0 {name=p4 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 630 -50 2 1 {name=p5 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} 820 -160 0 1 {name=p6 sig_type=std_logic lab=n1}
