@@ -67,3 +67,13 @@ To change the properties of the cell to be instantiated, select the **PCell** op
 <p align="center">
    <img src="./img/pcell_param3.png" width="600" />
 </p> 
+
+To move or rotate the devices instantiated, select (left click with the mouse) the device you want to move and click on **Edit**, then *Selection*, and finally click on the option you are looking for (in the image below, I selected the option *Flip Vertically*). 
+
+<p align="center">
+   <img src="./img/klayout_move_rotate.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/klayout_rotate.png" width="600" />
+</p> 
