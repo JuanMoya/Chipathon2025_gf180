@@ -51,3 +51,19 @@ To save the file, go to **File** and then click on *Save as*. Then, name the gds
 <p align="center">
    <img src="./img/klayout_save_gds.png" width="600" />
 </p> 
+
+To place the Pcells associated with the PDK cells in the layout area, click on  **Instance**, then in the *Library* option, and select *gf180mcu - GF180MCU Pcells*. This, will allow to select the different pcells associated with the PDK.
+
+<p align="center">
+   <img src="./img/instance_lib.png" width="600" />
+</p> 
+
+To change the properties of the cell to be instantiated, select the **PCell** option and set the same parameters as the ones in the schematic. This could be also done after instantiating the cell in the layout area, by click in the cell, pressing **Q**, and then selecting the *Pcell Parameters* option. The two options mentioned are shown below.
+
+<p align="center">
+   <img src="./img/pcell_param.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/pcell_param2.png" width="600" />
+</p> 
