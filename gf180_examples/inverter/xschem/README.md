@@ -101,7 +101,25 @@ Drag and drop from the list the waveforms that you want to check with gaw.
 
 
 ## inverter_tb_tran_colab.sch
+Below is the inverter testbench in Xschem that generates a .txt simulation results file, which will be located in the simulation folder mentioned at the beginning of this guideline.
 
+ <p align="center">
+   <img src="./img/tb_colab.png" width="600" />
+</p> 
+
+The file will be located in your Windows machine in the path: $HOME\eda\designs\Chipathon2025_gf180\gf180_examples\inverter\xschem\simulation
+
+This file can be uploaded to a google colab file for post processing as illustrated in the figure below.
+
+ <p align="center">
+   <img src="./img/colab1.png" width="600" />
+</p> 
+
+ <p align="center">
+   <img src="./img/colab2.png" width="600" />
+</p> 
+
+Make sure to upload the inverter_tb_tran.txt file to the **sample_data** folder. The Google Colab script is also located in this folder as **script.txt**. Finally, here is the link to the Colab file: https://colab.research.google.com/drive/1SiDoTlFxrQ4vMiz5GE_YhqOSPYIMJ9dE?usp=sharing
 
 ## Hotkeys
 In the Xschem GUI, select the **Help** option to access the *Keys* and *Show Keybindings* options. These allow you to view a list of the available key bindings and their descriptions, as well as a handy keybinding cheat sheet (see the image below).
@@ -140,7 +158,7 @@ http://repo.hu/projects/xschem/xschem_man/commands.html
 
 ## Pulling and pushing the design project to a Github repository
 
-The **IIC-OSIC-TOOLS** repo, create a mapped folder which is synced between host and the docker. By default its $HOME/eda/designs in Linux and C:\Users\<username>\eda\designs in Windows (which is this case). To pull your repository in your Windows machine, run the following commmand in Powershell: 
+The **IIC-OSIC-TOOLS** repo, create a mapped folder which is synced between host and the docker. By default its $HOME\eda\designs in Linux and C:\Users\<username>\eda\designs in Windows (which is this case). To pull your repository in your Windows machine, run the following commmand in Powershell: 
 
   ```
   git clone <your_repository>.git
