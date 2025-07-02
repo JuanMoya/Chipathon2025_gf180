@@ -84,6 +84,8 @@ Once you have finished instantiating and connecting the layout components, place
    <img src="./img/klayout_layout_inverter.png" width="600" />
 </p> 
 
+## DRC flow
+
 To run DRC flow, check the example **Tutorial using KLayout with gf180mcu (part 4)** in https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial
 
 Remember to set for **Klayout DRC Options**:
@@ -95,6 +97,8 @@ The figure below shows DRC clean for the inverter layout cell.
 <p align="center">
    <img src="./img/drc_errors.png" width="600" />
 </p> 
+
+## LVS flow
 
 To run LVS flow, check again the example **Tutorial using KLayout with gf180mcu (part 4)** (link above), and set in Xschem the options defined below.
 
