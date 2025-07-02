@@ -86,14 +86,32 @@ Once you have finished instantiating and connecting the layout components, place
 
 To run DRC flow, check the example **Tutorial using KLayout with gf180mcu (part 4)** in https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial
 
-The figure below shows some DRC results associated with the density of poly, metal 1, and metal 2. These errors can be ignored for now, as they will be resolved when the design expands by including more blocks.
+Remember to set for **Klayout DRC Options**:
+1) **Variant options**: *D*
+2) **Top cell name**: inverter
+
+The figure below shows DRC clean for the inverter layout cell.
 
 <p align="center">
    <img src="./img/drc_errors.png" width="600" />
 </p> 
 
-To run LVS flow, also check the example **Tutorial using KLayout with gf180mcu (part 4)** (link above), and set the setup, as defined below.
+To run LVS flow, check again the example **Tutorial using KLayout with gf180mcu (part 4)** (link above), and set in Xschem the options defined below.
 
 <p align="center">
    <img src="./img/LVS_config2.png" width="600" />
+</p> 
+
+Remember to set for **Klayout LVS Options**:
+1) **Substrate name**: VSS
+2) **Variant options**: D
+3) **Top cell name**: inverter
+4) **Netlist path**: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/simulation/inverter.spice
+
+This fourth option is included in this tutorial compared with the **Tutorial using KLayout with gf180mcu (part 4)** mentioned above, since it is desirable in this Chipathon to maintain an organized structure, as proposed in this template link: https://github.com/JuanMoya/projectname_structure_template
+
+Below, is an image with LVS clean.
+
+<p align="center">
+   <img src="./img/LVS_clean.png" width="600" />
 </p> 
