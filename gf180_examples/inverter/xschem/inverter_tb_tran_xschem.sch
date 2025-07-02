@@ -39,7 +39,7 @@ N 90 -300 90 -260 {lab=GND}
 N 190 -410 190 -360 {lab=VDD}
 N 270 -410 270 -360 {lab=Vin}
 N 870 -290 890 -290 {lab=Vout}
-C {Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter.sym} 780 -170 0 0 {name=x1}
+C {inverter.sym} 780 -170 0 0 {name=x1}
 C {lab_wire.sym} 720 -390 0 0 {name=p7 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 720 -180 2 1 {name=p1 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} 640 -290 0 0 {name=p2 sig_type=std_logic lab=Vin}
