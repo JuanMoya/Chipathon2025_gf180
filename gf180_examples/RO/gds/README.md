@@ -35,3 +35,12 @@ Finally, change the hierarchy visualization with the level option (1 --> 3 for t
 <p align="center">
    <img src="./img/hierarchy_levels.png" width="600" />
 </p>
+
+Below is the layout of the ring oscillator and the window confirming DRC clean.
+<p align="center">
+   <img src="./img/RO_layout.png" width="600" />
+</p>
+
+<p align="center">
+   <img src="./img/DRC_clean.png" width="600" />
+</p>
