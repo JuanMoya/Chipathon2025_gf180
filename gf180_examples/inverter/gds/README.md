@@ -67,3 +67,51 @@ To change the properties of the cell to be instantiated, select the **PCell** op
 <p align="center">
    <img src="./img/pcell_param3.png" width="600" />
 </p> 
+
+To move or rotate the devices instantiated, select (left click with the mouse) the device you want to move and click on **Edit**, then *Selection*, and finally click on the option you are looking for (in the image below, I selected the option *Flip Vertically*). 
+
+<p align="center">
+   <img src="./img/klayout_move_rotate.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/klayout_rotate.png" width="600" />
+</p> 
+
+Once you have finished instantiating and connecting the layout components, place the pin labels with the **Metal<n>_Label** layer as shown below and as indicated in the examples provided by the Chipathon 2025 repo (https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial)
+
+<p align="center">
+   <img src="./img/klayout_layout_inverter.png" width="600" />
+</p> 
+
+To run DRC flow, check the example **Tutorial using KLayout with gf180mcu (part 4)** in https://github.com/sscs-ose/sscs-chipathon-2025/tree/main/examples/analog_tutorial
+
+Remember to set for **Klayout DRC Options**:
+1) **Variant options**: *D*
+2) **Top cell name**: inverter
+
+The figure below shows DRC clean for the inverter layout cell.
+
+<p align="center">
+   <img src="./img/drc_errors.png" width="600" />
+</p> 
+
+To run LVS flow, check again the example **Tutorial using KLayout with gf180mcu (part 4)** (link above), and set in Xschem the options defined below.
+
+<p align="center">
+   <img src="./img/LVS_config2.png" width="600" />
+</p> 
+
+Remember to set for **Klayout LVS Options**:
+1) **Substrate name**: VSS
+2) **Variant options**: D
+3) **Top cell name**: inverter
+4) **Netlist path**: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/simulation/inverter.spice
+
+This fourth option is included in this tutorial compared with the **Tutorial using KLayout with gf180mcu (part 4)** mentioned above, since it is desirable in this Chipathon to maintain an organized structure, as proposed in this template link: https://github.com/JuanMoya/projectname_structure_template
+
+Below, is an image with LVS clean.
+
+<p align="center">
+   <img src="./img/LVS_clean.png" width="600" />
+</p> 
