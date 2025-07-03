@@ -101,7 +101,7 @@ Drag and drop from the list the waveforms that you want to check with gaw.
 
 
 ## inverter_tb_tran_colab.sch
-Below is the inverter testbench in Xschem that generates a .txt simulation results file, which will be located in the simulation folder mentioned at the beginning of this guideline.
+Below is the inverter testbench in Xschem that generates a .txt simulation results file, which will be located in the simulation folder mentioned at the beginning of this guideline. For this visualization mode, the simulator configuration is also: **Ngspice interactive**.
 
  <p align="center">
    <img src="./img/tb_colab.png" width="600" />
