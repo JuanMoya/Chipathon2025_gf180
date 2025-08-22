@@ -48,3 +48,13 @@ A new **inverter.sym** file was created in the pex folder, press **Q** key and i
 <p align="center">
    <img src="./img/text_input_inverter_sym.png" width="600" />
 </p> 
+
+Finally, you can run the inverter testbench simulation with the PEX SPICE file included. Before running the simulation, remember to check the **simulation dir** option. The simulation results are below.
+
+<p align="center">
+   <img src="./img/simulation_dir_option.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/pex_sim.png" width="600" />
+</p> 
