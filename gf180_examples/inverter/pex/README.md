@@ -58,3 +58,17 @@ Finally, you can run the inverter testbench simulation with the PEX SPICE file i
 <p align="center">
    <img src="./img/pex_sim.png" width="600" />
 </p> 
+
+If you want to double check that you are using the correct netlist, click on the **Simulation tab** and click on the **Edit Netlist**. A new window opens and it is possible to check the pex spice file path.
+
+<p align="center">
+   <img src="./img/edit_netlist.png" width="600" />
+</p> 
+
+<p align="center">
+   <img src="./img/netlist.png" width="600" />
+</p> 
+
+Some references of this tutorial:
+1) [Magic / Xschem / Ngspice Postlayout Simulation Tutorial](https://www.youtube.com/watch?v=8SMBSYiLbHM)
+2) [run_ex.sh](https://github.com/gabrielmaranhao/Bracolin/blob/main/padframe/run_ex.sh)
