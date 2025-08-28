@@ -119,3 +119,18 @@ Below, is an image with LVS clean.
 <p align="center">
    <img src="./img/LVS_clean.png" width="600" />
 </p> 
+
+However, there is an actual issue with LVS in Klayout, based on this [discussion](https://github.com/IHP-GmbH/IHP-Open-PDK/issues/484) This issue reports that KLayout’s LVS passes even when a net label is misplaced or floating, causing incorrect or missing ports not to be flagged as errors. Thus, in order to have a more reliable LVS flow, we will use another tool, which [Netge](https://github.com/RTimothyEdwards/netgen). The command to be used for comparing the Klayout and Netgen netlists are:
+
+```
+netgen -batch lvs "../gds/inverter_extracted.cir inverter" "../xschem/simulation/inverter.spice inverter" $PDK_ROOT/$PDK/libs.tech/netgen/${PDK}_setup.tcl
+```
+The first part of the command identifies the location of the Klayout inverter netlist and its corresponding cell name. The second part of the command identifies the location of the Xschem inverter netlist and its corresponding cell name. The third part of the command corresponds to the location of the setup file. The command is run in the Chipathon Docker image, as shown in the figures below.
+
+<p align="center">
+   <img src="./img/netgen1.png" width="600" />
+</p> 
+<p align="center">
+   <img src="./img/netgen2.png" width="600" />
+</p> 
+The output of the netgen command indicates that both netlists are equivalent.
