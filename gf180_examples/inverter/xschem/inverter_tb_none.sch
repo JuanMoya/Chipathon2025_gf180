@@ -16,7 +16,6 @@ N -180 -280 -180 -240 {lab=VSS}
 N -180 -180 -180 -140 {lab=GND}
 N -80 -290 -80 -240 {lab=VDD}
 N 10 -290 10 -240 {lab=Vin}
-C {inverter.sym} 300 -50 0 0 {name=x1}
 C {lab_wire.sym} 240 -270 0 0 {name=p7 sig_type=std_logic lab=VDD}
 C {lab_wire.sym} 240 -60 2 1 {name=p1 sig_type=std_logic lab=VSS}
 C {lab_wire.sym} 160 -170 0 0 {name=p2 sig_type=std_logic lab=Vin}
@@ -47,3 +46,4 @@ C {code_shown.sym} 520 -60 0 0 {name=SPICE only_toplevel=false value="
 .dc Vin 0 3.3 0.01
 .save all
 "}
+C {xschem/inverter.sym} 300 -50 0 0 {name=x1}

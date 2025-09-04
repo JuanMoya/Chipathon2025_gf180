@@ -1,6 +1,6 @@
-** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/xschem/inverter_tb_none.sch
-**.subckt inverter_tb_none
-C1 Vout VSS 100f m=1
+** sch_path: /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/pex/inverter_tb_none_ext.sch
+**.subckt inverter_tb_none_ext
+C1 Vout VSS 1f m=1
 V1 VSS GND 0
 V2 VDD VSS 3.3
 Vin Vin VSS 0
@@ -13,8 +13,11 @@ X1 Vin VDD VSS Vout inverter
 
 
 
-.dc Vin 0 3.3 0.01
-.save all
+.include /foss/designs/Chipathon2025_gf180/gf180_examples/inverter/pex/inverter.spice
+.control
+dc Vin 0 3.3 0.01
+plot v(Vout)
+.endc
 
 
 **** end user architecture code
